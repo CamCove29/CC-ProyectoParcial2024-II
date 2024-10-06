@@ -1,0 +1,20 @@
+services:
+  api-students:
+    build: ./api-students
+    ports:
+      - "8000:8000"
+
+  api-clientes:
+    build: ./api-clientes
+    ports:
+      - "8001:8000"
+
+  api-localization:
+    build: ./api-localization
+    ports:
+      - "8002:8000"
+
+  api-reserva:
+    build: ./api-reserva
+    ports:
+      - "8003:8000"
